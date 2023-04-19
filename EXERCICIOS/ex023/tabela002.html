@@ -14,6 +14,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         td, th {
@@ -31,6 +32,13 @@
         thead, tfoot {
             background-color: rgb(181, 197, 207);
             color: black;
+
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(181, 197, 207);
 
         }
 
